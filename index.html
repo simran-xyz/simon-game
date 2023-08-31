@@ -14,16 +14,16 @@
 <body id="bg" class="bg-image img-responsive">
   <div class="row">
     <div class="col-12 custom-header">
-      <div class="simon">SIMON</div>
+      <div class="simon">SIMON <small class="text-warning">~ color memo</small> </div>
       <div class="best-score mr-5">
-        <i>Score : <span id="score">0</span> </i>
+        <i>Score : <b id="score" class="text-warning">0</b> </i>
       </div>
     </div>
   </div>
 
-  <div class="container mt-3">
+  <div class="container mt-3 text-center">
+    <h3 id="lvlOuter" class="text-center text-warning">Level : <b id="level">--</b></h3>
     <div class="row simon-board d-flex justify-content-center mx-auto">
-
       <div onclick='onSideClick(1)' class="col-6 simon-top-left"></div>
       <div onclick='onSideClick(2)' class="col-6 simon-top-right"></div>
       <div onclick='onSideClick(3)' class="col-6 simon-bottom-left"></div>

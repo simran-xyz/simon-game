@@ -1,3 +1,6 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
 body, html {
   margin: 0;
   height: 100vh;
@@ -28,7 +31,6 @@ body, html {
   margin-left: 5rem;
   font-style: italic;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .best-score {
@@ -58,7 +60,6 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .simon-top-left {
