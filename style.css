@@ -28,13 +28,15 @@ body, html {
 
 .simon{
   font-size: 20px;
-  margin-left: 5rem;
+  margin-left: 2rem;
   font-style: italic;
   font-weight: bold;
 }
 
 .best-score {
+  font-size: 20px;
   text-align: right;
+  margin-right: 2rem;
 }
 
 .simon-board {
@@ -151,12 +153,12 @@ body, html {
 
 @media (max-width: 768px) {
   .simon-board {
-    width: 90%;
+    width: 80%;
     height: 400px;
   }
   
   .simon-center {
-    width: 70%;
+    width: 50%;
     height: 100px;
   }
 

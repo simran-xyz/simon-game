@@ -12,8 +12,7 @@ let sequence  = [],
     seqLength = 0,
     idx       = 0,
     canClick  = false,
-    gameOn    = false, 
-    score     = 0;
+    gameOn    = false;
 
 document.getElementById("endGame").style.display = "none";
 
